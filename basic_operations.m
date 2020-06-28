@@ -18,21 +18,21 @@ xor(1, 0); % XOR
 PS1('>> '); % change prompt
 
 str = 'hello world';
-disp(str)                              % output variable str
-disp(sprintf('2 decimals: %0.2f', pi)) % pi is a constant
+disp(str);                              % output variable str
+disp(sprintf('2 decimals: %0.2f', pi)); % pi is a constant
 
-disp(pi)
+disp(pi);
 format long  % start outputing more digits after the decimal point
-disp(pi)
+disp(pi);
 format short % go back to the default number of digitis after the decimal point
-disp(pi)
+disp(pi);
 
 A = [1 2; 3 4; 5 6]; % 3x2 matrix
 B = [                % 2x2 matrix
     1 2
     3 4
 ];
-disp(A)
+disp(A);
 [1 2 3];   % 1x3 matrix(or just row vector)
 [1; 2; 3]; % 3x1 matrix(or just column vector)
 

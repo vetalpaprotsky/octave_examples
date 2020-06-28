@@ -19,8 +19,8 @@ load featuresX.dat;             % load dataset in matrix(it'll be saved in featu
 % load('featuresX.dat');        % works the same as load featuresX.dat;
 priceY = load('featuresY.dat'); % featuresY variable won't be created
 
-% who; % show all variables in the current scope(it also returns row vector with variables)
-whos;  % who with more details
+% who;  % show all variables in the current scope(it also returns row vector with variables)
+% whos; % who with more details
 
 clear v; % remove v variable
 % clear; remove all variables
