@@ -42,11 +42,11 @@ featuresX(:, 2);     % get all elements from the second column(column vector)
 % general rule for getting submatrices: (rows, columns)
 
 f = featuresX(1:5, 1:2);
-save some_features.mat f; % save matrix f to some_features.mat file(take a look at this file)
-load some_features.mat;   % load some_features.mat to f variable(f is the name of the matrix which is saved in that file)
+save someFeatures.mat f; % save matrix f to someFeatures.mat file(take a look at this file)
+load someFeatures.mat;   % load someFeatures.mat to f variable(f is the name of the matrix which is saved in that file)
 
-save some_features_bin.mat f -binary; % save file as binary
-save some_features_text.mat f -ascii; % save file as text(not the same as without -ascii)
+save someFeaturesBin.mat f -binary; % save file as binary
+save someFeaturesText.mat f -ascii; % save file as text(not the same as without -ascii)
 
 B = [
     10 11;

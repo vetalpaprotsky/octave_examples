@@ -14,7 +14,7 @@ ylabel('value'); % change name of the y-axis
 legend('sin', 'cos'); % show names of the functions on the graph
 title('my plot');     % change plot title
 
-print -dpng 'my_plot.png'; % save plot
+print -dpng 'myPlot.png'; % save plot
 close;                     % close figure window
 
 figure(1);   % plot the next function on the "Figure 1" window

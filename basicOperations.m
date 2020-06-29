@@ -9,7 +9,7 @@
 
 3 == 2; % equal? (returns false)
 3 ~= 2; % not equal? (returns true)
-bool_value = true;
+boolValue = true;
 
 1 && 0;    % AND
 1 || 0;    % OR
