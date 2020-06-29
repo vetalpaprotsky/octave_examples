@@ -48,8 +48,8 @@ randn(3, 3); % random 3x3 matrix(normal distribution with mean 0 and standard de
 
 % random row vector(normal distribution with mean -6 and standard deviation sqrt(10))
 w = -6 * sqrt(10)*randn(1, 10000);
-% hist(w);     plot a histogram of values in vector w
-% hist(w, 50); histogram with 50 buckets
+hist(w);     % plot a histogram of values in vector w
+hist(w, 50); % histogram with 50 buckets
 
 I = eye(4); % 4x4 identity matrix
 
