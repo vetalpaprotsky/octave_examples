@@ -25,9 +25,9 @@ end;
 
 v(1) = 3;
 if v(1) == 1,
-    % disp('The value is one');
+    disp('The value is one');
 elseif v(1) == 2,
-    % disp('The value is two');
+    disp('The value is two');
 else
-    % disp('The value is something else');
+    disp('The value is something else');
 end;
